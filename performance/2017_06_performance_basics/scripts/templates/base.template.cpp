@@ -1,3 +1,4 @@
+#include <algorithm>
 #include <iostream>
 #include <string>
 #include <time.h>
@@ -7,7 +8,7 @@ using namespace std;
 
 
 int main(void) {
-    const int N=1000, M=1000;
+    const int N={{ array_size }}, M={{ array_size }};
     int start, end;
     double ** C;
     double ** A;
